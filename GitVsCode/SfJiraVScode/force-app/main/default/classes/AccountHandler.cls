@@ -2,7 +2,7 @@ public class AccountHandler implements ITrigger{
     List<String> AccountIds = new List<String>();
     Map<String,List<String>> AccountIdToJiraIds = new  Map<String,List<String>>();  
     List<GnrSf__JiraIssue__c> jiraissuetoupdate = new List<GnrSf__JiraIssue__c>();
-    
+    List<GnrSf__JiraIssue__c> xyz =new List<GnrSf__JiraIssue__c>();
     public void bulkBefore()
     {
         
